@@ -10,5 +10,7 @@ import matplotlib.pyplot as plt
 
 x,y=np.loadtxt('data.txt',delimiter=None, unpack=True, skiprows=1)
 plt.plot(x,y)
+plt.xlabel('time')
+plt.ylabel('counts/s')
 plt.show()
 
