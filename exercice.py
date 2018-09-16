@@ -15,6 +15,7 @@ slope=range(len(x))
 plt.plot(slope)
 
 plt.plot(x,y)
+plt.title('example')
 plt.xlabel('time')
 plt.ylabel('counts/s')
 plt.show()
